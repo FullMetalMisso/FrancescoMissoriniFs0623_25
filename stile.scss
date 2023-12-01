@@ -19,20 +19,21 @@ body {
 }
 footer .service a{
 padding: 5px;
-    border: 2px solid rgba(245, 245, 245, 0.623);
+border: 2px solid rgba(245, 245, 245, 0.623);
 width: 50;
 }
 
 #profileBody{
     padding: 150px;
 }
+
 #profileImg{
-    width: 150px;
+    width: 150%;
     height: auto;
 }
-#tastiProfilo a{
+#tastiProfilo a, #maturity a{
     color: white;
-        padding: 20px;
+        padding: 10px;
         border: 2px solid rgba(245, 245, 245, 0.623);
         width: 50;
         }
@@ -78,7 +79,9 @@ width: 50;
         left: 20px;
         color: #fff;
       }
-      
+     .form-control {
+        color:white !important
+     }
     }
 
     .arrow__btn {
