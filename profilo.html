@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/stile.css">
+    <title>Profilo</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="assets/netflix_logo.png" alt=""></a>
+            </div>
+        </nav>
+    </header>
+    <section id="profileBody" class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img id="profileImg" src="assets/kids_icon.png" alt="iconaProfilo" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <h2>Edit profile</h2>
+                <hr>
+                <div id="nomeForm " class="mb-3 w-50">
+                    <input class="form-control  form-control-lg bg-secondary " type="text" placeholder="Strive Student"
+                        aria-label="Strive Student">
+                </div>
+                <div id="linguaForm" class=" mb-3 w-25">
+                    <p>Language:</p>
+                    <select class="form-select text-white bg-dark" id="floatingSelect" aria-label="Language">
+                        <option value="English">English</option>
+                        <option value="Italian">Italian</option>
+                    </select>
+                    <hr>
+                </div>
+                <div id="maturity" class="mb-3">
+                    <p>Maturity Settings:</p>
+                    <p><span>ALL MATURITY RATINGS</span></p>
+                    <p>Show titles of all maturity for this profile</p>
+                    <a href="">EDIT</a>
+                </div>
+                <hr>
+                <div class="mb-3">
+                    <p>Autoplay controls:</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckAutoplay" checked>
+                        <label class="form-check-label" for="flexCheckAutoplay">
+                            Autoplay next episode in a series on all devices
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckPreviews" checked>
+                        <label class="form-check-label" for="flexCheckPreviews">
+                            Autoplay previews while browsing on all devices
+                        </label>
+                    </div>
+                </div>
+                <hr>
+                <div id="tastiProfilo" class="d-flex mb-3">
+                    <p class="me-2"><a href="#" class="btn btn-active ">SAVE</a></p>
+                    <p class="me-2"><a href="#" class="btn ">CANCEL</a></p>
+                    <p><a href="#" class="btn ">DELETE PROFILE</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
